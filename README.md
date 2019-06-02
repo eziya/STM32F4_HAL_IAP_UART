@@ -1,6 +1,9 @@
 # STM32F4_HAL_IAP_UART
 UART IAP Example for STM32F4
 
+[Tutorial(Korean)]
+https://blog.naver.com/eziya76/221552811740
+
 I've downloaded the IAP example from the ST home page.<br>
 https://www.st.com/en/embedded-software/x-cube-iap-usart.html <br>
 
@@ -10,16 +13,6 @@ I've modified the STM3210C_EVAL project to port IAP example for STM32F407. <br>
   Behavior of YMODEM is different between v4.85 and v4.86. <br>
 
 I've attached the debugging images of HyperTerminal and Teraterm v4.88 <br>
-Teraterm v4.88 sends unexpected SOH packet. so I had to add some code to ignore unexpected SOH packet. <br>
+Teraterm v4.88 sends unexpected SOH packet. so I had to add some codes to ignore unexpected SOH packet. <br>
 
 ![debugging](./debugging.jpg)<br>
-
-
-
-
-
-  
-
-
-
-
