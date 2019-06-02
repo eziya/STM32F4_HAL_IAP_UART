@@ -12,6 +12,8 @@ I've modified the STM3210C_EVAL project to port IAP example for STM32F407. <br>
 I've attached the debugging images of HyperTerminal and Teraterm v4.88 <br>
 Teraterm v4.88 sends unexpected SOH packet. so I had to add some code to ignore unexpected SOH packet. <br>
 
+![debugging](./debugging.jpg)<br>
+
 
 
 
